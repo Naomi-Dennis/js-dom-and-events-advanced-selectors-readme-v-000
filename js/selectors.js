@@ -46,3 +46,12 @@ function divSelector(){
   function ninjaBabySelector(){
     return $("#baby-ninja")
   }
+  
+  //   it('lastImageSelector() should return the last image', function() {
+  //   expect(lastImageSelector().length).toBe(1);
+  //   expect(lastImageSelector().attr('src')).toEqual("https://s3.amazonaws.com/after-school-assets/confused.gif");
+  // });
+
+function lastImageSelector(){
+  return $("img:last-child")
+}
