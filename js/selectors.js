@@ -27,3 +27,13 @@ function lastImageSelector(){
 function firstListItem(){
   return $("ul li:first-child") 
 }
+
+  // it('divSelector() should return two divs', function() {
+  //   expect(divSelector().length).toBe(2);
+  //   expect(divSelector()[0].tagName).toEqual("DIV");
+  // });
+  
+function divSelector(){
+  return $("div")
+}
+
