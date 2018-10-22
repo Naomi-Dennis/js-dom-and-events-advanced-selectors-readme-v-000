@@ -17,7 +17,7 @@ function paragraphSelector(){
 //   });
 
 function lastImageSelector(){
-  return $("img:last")
+  return $("img:last-child")
 }
 
 // it('firstListItem() should return the first list item in the unordered list', function() {
