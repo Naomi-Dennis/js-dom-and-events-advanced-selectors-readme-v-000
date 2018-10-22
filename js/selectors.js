@@ -34,6 +34,6 @@ function firstListItem(){
   // });
   
 function divSelector(){
-  return $("div")
+  return $("div ~ div")
 }
 
