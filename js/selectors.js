@@ -25,5 +25,5 @@ function lastImageSelector(){
 //     expect(firstListItem()[0].children[0].src).toEqual('https://s3.amazonaws.com/after-school-assets/awesome.jpg');
 //   });
 function firstListItem(){
-  return $("ul li:first") 
+  return $("ul li:first-child") 
 }
