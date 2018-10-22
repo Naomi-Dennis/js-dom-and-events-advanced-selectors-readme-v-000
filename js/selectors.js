@@ -44,5 +44,5 @@ function divSelector(){
   // });
   
   function ninjaBabySelector(){
-    
+    return $("baby-ninja")
   }
